@@ -26,13 +26,12 @@ Look at the git history using `git log`.
 3. Go back to the latest commit with `git checkout master`
 
 ## Exercise 6
-1. Wait for the trainer to update the remote repo
-2. Fetch the changes with `git fetch`
-3. Pull the changes with `git pull`
-4. Use `git diff` to find out what is now different
+1. Merge the exercise branch using `git merge origin/exercise6`
+2. Use `git diff` to find out what is now different
 
 ## Exercise 7
-1. Wait for the trainer to update the remote repo
-2. Fetch the changes with `git fetch`
-3. Pull the changes with `git pull`
-4. This should have created a conflict, resolve it TODO think about how to do that
+1. Merge the exercise branch using `git merge origin/exercise7`
+2. If you have done exercise 3, it should have created a conflict
+3. Change the conflicting file and save it
+4. Commit the file to resolve the conflict
+5. Check that you get a clean status with `git status`
