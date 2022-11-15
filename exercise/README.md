@@ -28,6 +28,7 @@ Look at the git history using `git log`.
 ## Exercise 6
 1. Merge the exercise branch using `git merge origin/exercise6`
 2. Use `git diff` to find out what is now different
+> If you see this line it succeeded, nice job
 
 ## Exercise 7
 1. Merge the exercise branch using `git merge origin/exercise7`
